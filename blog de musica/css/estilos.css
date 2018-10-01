@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body{
+    background-color: red;
+}
+.header{
+    background-color: white;
+}
+.contenedorRedes{
+    position:relative;
+}
+.abajo{
+    position: absolute;
+    bottom: 1px;
+}
+.abajo1{
+    right: 20%
+}
+.abajo2{
+    right: 40%;
+}
+.abajo3{
+    right: 60%
+}
+.logo{
+    margin-right: -100%
+}
+.nav{
+    /*position: relative;*/
+}
+nav{
+    position: absolute;
+    background-color: yellow;
+    width: 100%;
+}
+nav ul{
+    margin-left: 7%;
+    display: flex;
+    flex-flow: row wrap;
+} 
+nav ul li{
+    margin-right: 7%;
+    padding: 7px;
+    list-style: none;
+    background-color: white;
+    border-radius: 20%;
+    box-shadow: 5px 6px #888888
+}
+nav ul li a{
+    color: red;
+    margin-left: 10px;
+}
+.blog{
+    background-color: darkmagenta;
+}
+.titulo{
+    text-transform: capitalize;
+    font-size: 1.5rem;
+}
+.busqueda{
+    list-style: none;
+}
+.boton{
+    float: left;
+}
+th{
+    cursor: pointer; 
+}
+th:hover{
+    background-color: lightpink;
+}
+@media screen and (max-width: 556px) {
+    .abajo1{
+        top: 20%;
+        right: 25%
+    }
+    .abajo2{
+        top: 20%;
+        right: 50%;
+    }
+    .abajo3{
+        top: 20%;
+        right: 75%
+    }
+    .header{
+        margin-bottom: 8%;
+        padding-bottom: 10%
+    }
+}
+@media screen and (max-width: 555px){
+    .header{
+        margin-bottom: 8%;
+        padding-bottom: 10%
+    }
+    .contenedorRedes{
+        background-color: white
+    }
+}

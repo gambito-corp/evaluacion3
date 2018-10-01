@@ -5,16 +5,145 @@
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/estilos.css">
 </head>
 <body>
-    <header>
-        <div class="container-fluid">
+    <div class="container header">
+        <header>
             <div class="row">
-                <div class="col-lg-3 col-col-md-4 col-sm-6 col-xs-12" class="contenedorLogo">
-                    <img src="img/logo.jpg" height="150" width="150" alt="logo" title="logo" class="img-responsive">
+                <div class="col-lg-2 col-col-md-4 col-sm-6" class="contenedorLogo">
+                    <img src="img/logo.jpg" height="100" width="100" alt="logo" title="logo" class="img-fluid mx-auto d-block logo">
+                </div>
+                <div class="col-lg-3 col-col-md-4 offset-lg-7 col-sm-6" class="contenedorRedes">
+                    <img src="img/glyphicons-social/png/glyphicons-social-22-github.png" height="30" width="30" alt="github" title="github" class="float-right abajo abajo1">
+                    <img src="img/glyphicons-social/png/glyphicons-social-32-twitter.png" height="30" width="30" alt="twitter" title="twitter" class="float-right abajo abajo2">
+                    <img src="img/glyphicons-social/png/glyphicons-social-31-facebook.png" height="30" width="30" alt="face" title="face" class="float-right abajo abajo3">
                 </div>
             </div>
+        </header>
+    </div>
+    <div class="container nav">    
+        <nav>
+            <ul class="ulBotton">
+                <li><a href="#">platero y tu</a></li>
+                <li><a href="#">extremoduro</a></li>
+                <li><a href="#">mago de oz</a></li>
+                <li><a href="#">la polla</a></li>
+                <li><a href="#">ska-p</a></li>
+                <li><a href="#">reincidentes</a></li>
+            </ul>
+        </nav>
+    </div>
+    <br>
+    <br>
+    <br>
+    <div class="container blog">
+        <div class="row">
+            <div class="col-md-8">
+                <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis quasi veritatis fugit molestias consequatur amet, eligendi alias error ad. Debitis asperiores dolorem esse consectetur voluptates ducimus repudiandae voluptas enim, sint!</p>
+                 -->
+                 <div class="row">
+                    <br>
+                    <br>
+                    <div class="col-md-8" style="background-color:white">
+                        <h2 class="text-center titulo">las aceras estan llenas de piojos</h2>
+                        <p>
+                            En el disco colaboran, entre otros, Paco Ventura, de Medina Azahara, en "Aceitunero"; Evaristo de La Polla Records, Gatillazo, en "Mil quilates"; Brigi Duque, de Koma en "Nana de quebranto"; El Pirata, de Losdelgás, en "La hora de las moscas"; y Rafael Borja, de Jataja, en "Los mismos clavos". El disco entró directamente al número 1 en la lista oficial de ventas, en la 17.ª semana de 2007
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="img/marea.jpg" width="250" alt="">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <form action="" role="form">
+                            <div class="form group">
+                                <label for="comentario"><img src="img/glyphicons/png/glyphicons-4-user.png" height="22" width="23" alt=""></label>
+                                <textarea name="comentario" id="" cols="30" rows="3" class="form-control"></textarea>
+                                <input type="submit" value="comentar" class="form-control">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <br>
+                <div class="row">
+                    <br>
+                    <br> 
+                    <div class="col-md-4">
+                        <img src="img/marea2.jpg" width="250" alt="">
+                    </div>
+                    <div class="col-md-8" style="background-color:white">
+                        <h2 class="text-center titulo">besos de perro</h2>
+                        <p>
+                            Besos de perro es el tercer álbum de estudio de la banda de rock española Marea, lanzado al mercado en el año 2002. Bajo el contrato del sello DRO, Marea pasa a grabar su tercer álbum de estudio, Besos de Perro, en febrero de 2002 con el productor Iñaki "Uoho" Antón, guitarrista de bandas como Extremoduro y Platero y Tú. Besos de Perro fue grabado en unos dos meses en la Casa de Iñaki y cuenta con numerosas contribuciones de músicos, Fito Cabrales (Fito & Fitipaldis) y Martín Romero (hermano de Kutxi).
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <form action="" role="form">
+                            <div class="form group">
+                                <label for="comentario"><img src="img/glyphicons/png/glyphicons-4-user.png" height="22" width="23" alt=""></label>
+                                <textarea name="comentario" id="" cols="30" rows="3" class="form-control"></textarea>
+                                <input type="submit" value="comentar" class="form-control">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4" style="background-color:pink">
+                <ul>
+                    <li style="max-width:204px" class="busqueda">
+                        <form action="./">
+                            <div class="input-group" id="div-src">
+                                <button class="btn btn-default boton" type="button">
+                                    <img src="img/glyphicons/png/glyphicons-28-search.png" height="24" width="24" alt="">
+                                </button>
+                                <input type="text" id="input-src" class="form-control">
+                            </div>
+                        </form>
+                    </li>
+                </ul>
+                <table class="table table-dark">
+                  <thead>
+                    <tr>
+                      <th scope="col">RESULTADOS</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row">1 Lorem ipsum dolor sit amet.</th>
+                    </tr>
+                    <tr>
+                      <th scope="row">2 Lorem ipsum dolor sit amet.</th>
+                    </tr>
+                    <tr>
+                      <th scope="row">3 Lorem ipsum dolor sit amet.</th>
+                    </tr>
+                    <tr>
+                      <th scope="row">4 Lorem ipsum dolor sit amet.</th>
+                    </tr>
+                    <tr>
+                      <th scope="row">5 Lorem ipsum dolor sit amet.</th>
+                    </tr>
+                    <tr>
+                      <th scope="row">6 Lorem ipsum dolor sit amet.</th>
+                    </tr>
+                    <tr>
+                      <th scope="row">7 Lorem ipsum dolor sit amet.</th>
+                    </tr>
+                    <tr>
+                      <th scope="row">8 Lorem ipsum dolor sit amet.</th>
+                    </tr>
+                    <tr>
+                      <th scope="row">9 Lorem ipsum dolor sit amet.</th>
+                    </tr>
+                  </tbody>
+                </table>
+            </div>
+
         </div>
-    </header>
+    </div>
 </body>
 </html>
